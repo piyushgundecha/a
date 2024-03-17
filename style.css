@@ -1,0 +1,103 @@
+body {
+    background-color: #e5c9ae; /* Setting overall background color */
+}
+
+.navbar {
+    background-color: #482919; /* Navbar background color */
+}
+
+.nav-link {
+    color: #e5d4c3 !important; /* Navbar link color */
+}
+
+.carousel-item img {
+    filter: brightness(70%); /* Reduce brightness of carousel images */
+}
+
+.container-main {
+    background-color: #faedcd; /* Main container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin at the top */
+}
+
+.container-services {
+    background-color: #e5c9ae; /* Services container background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; /* Add margin at the top */
+}
+
+.card {
+    background-color: #734f38; /* Card background color */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title,
+.card-text {
+    color: #e5d4c3; /* Card text color */
+}
+
+.btn-primary {
+    background-color: #81583a; /* Primary button background color */
+    border-color: #81583a; /* Primary button border color */
+}
+
+.btn-primary:hover {
+    background-color: #9b744a; /* Primary button background color on hover */
+    border-color: #9b744a; /* Primary button border color on hover */
+}
+
+input[type="range"] {
+    /* -webkit-appearance: none; */
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #482919, #553725, #734f38, #81583a, #9b744a, #b3895d, #d6ab7d, #debea2, #e5c9ae, #e5d4c3);
+    outline: none;
+    border-radius: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #81583a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+    color: #40444f
+        /* Change this to your desired text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fcb756;
+    /* Change this to your desired hover text color */
+}
+
+.navbar-nav .dropdown-item {
+    font-weight: bold;
+}
+.navbar-nav  {
+    font-weight: bold;
+}
+
+.navbar-nav .dropdown-item:hover {
+    color: #fcb756;
+    /* Change this to your desired hover text color for dropdown items */
+}
+/* style.css */
+
+/* Active link color */
+.navbar-nav .nav-item a.active {
+    color: #fcb756; /* Replace with your desired color code */
+}
+
+.ser {
+    background-color: #F1EFEC;
+} 
